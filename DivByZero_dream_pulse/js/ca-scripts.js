@@ -45,7 +45,8 @@ function hideElement() {
      about1.textContent = 'We deliver the best service this side of creation'
 
     //<p id="aboutpara2"> <!--todo: Add customer company motto text-->
-
+    let about2 = document.getElementById('aboutpara2')
+    about2.textContent = 'Our motto is satisfaction guaranteed'
     // <p id="addresspara" class="mb-3"> <!--todo: Add customer company phone number text-->
 
 }; 
