@@ -33,6 +33,8 @@ function hideElement() {
  function addText() {
 
     //<p id="intropara1" class="tm-color-gray">  <!--todo: Add customer company introduction text about their founding year-->
+    let intro = document.getElementById('intropara1')
+    intro.textContent = 'Alliance was founded in 1931 by Albert Daniels.'
 
     //<p id="intropara2" class="mb-0 tm-color-gray"> <!--todo: Add customer company introduction text about what they lead in-->
 
