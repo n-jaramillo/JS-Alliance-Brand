@@ -24,7 +24,8 @@ function toggleColors() {
 
 function hideElement() {
     //<ul class="nav flex-row tm-social-links">  <!--todo: Hide social links-->
-
+    let socialLinks = document.querySelector('.tm-social-links')
+    socialLinks.style.visibility = 'hidden'
 };
 
  function addText() {
