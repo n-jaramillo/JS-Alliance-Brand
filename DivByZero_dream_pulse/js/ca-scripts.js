@@ -7,7 +7,8 @@ function addCustomerName() {
     title.textContent = customerName;
     
     // <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
-
+    let header1 = document.getElementById('tm-header')
+    header1.textContent = customerName;
     // <h2 id="introheader" class="tm-section-title mb-5 text-uppercase tm-color-primary"></h2> <!--todo: Add Customer Name-->
 
 };
