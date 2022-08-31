@@ -10,6 +10,8 @@ function addCustomerName() {
     let header1 = document.getElementById('tm-header')
     header1.textContent = customerName;
     // <h2 id="introheader" class="tm-section-title mb-5 text-uppercase tm-color-primary"></h2> <!--todo: Add Customer Name-->
+    let header2 = document.getElementById('introheader')
+    header2.textContent = customerName;
 
 };
 
