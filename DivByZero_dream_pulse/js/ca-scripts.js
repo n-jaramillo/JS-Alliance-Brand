@@ -15,7 +15,11 @@ function addCustomerName() {
 
 function toggleColors() {
     // <!-- todo: Change all classes named 'tm-white-rect' to 'tm-blue-rect' -->
-
+    let rects = document.querySelectorAll('.tm-white-rect')
+    for (i = 0; i < rects.length; i++) {
+        rects[i].classList.remove('tm-white-rect')
+        rects[i].classList.add('tm-blue-rect')
+    }
 };
 
 function hideElement() {
