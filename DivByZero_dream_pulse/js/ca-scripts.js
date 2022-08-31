@@ -33,10 +33,12 @@ function hideElement() {
  function addText() {
 
     //<p id="intropara1" class="tm-color-gray">  <!--todo: Add customer company introduction text about their founding year-->
-    let intro = document.getElementById('intropara1')
-    intro.textContent = 'Alliance was founded in 1931 by Albert Daniels.'
+    let intro1 = document.getElementById('intropara1')
+    intro1.textContent = 'Alliance was founded in 1931 by Albert Daniels.'
 
     //<p id="intropara2" class="mb-0 tm-color-gray"> <!--todo: Add customer company introduction text about what they lead in-->
+    let intro2 = document.getElementById('intropara2')
+    intro2.textContent = 'The company is a leader in P.C. Manufacturing'
 
      //<p id="aboutpara1" id="a" class="mb-5"> <!--todo: Add customer company about text-->
 
