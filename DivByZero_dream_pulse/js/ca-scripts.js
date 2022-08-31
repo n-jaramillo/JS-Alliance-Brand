@@ -48,7 +48,8 @@ function hideElement() {
     let about2 = document.getElementById('aboutpara2')
     about2.textContent = 'Our motto is satisfaction guaranteed'
     // <p id="addresspara" class="mb-3"> <!--todo: Add customer company phone number text-->
-
+    let contact = document.getElementById('addresspara')
+    contact.textContent = '1-800-565-5656'
 }; 
 
 
